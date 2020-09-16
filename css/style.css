@@ -3,9 +3,11 @@ body{
 }
 table{
     border: 1px black solid;
+    margin: 50px;
 }
 table td{
     border: 1px black solid;
+    padding: 20px;
 }
 header{
     text-align: center;
