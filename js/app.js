@@ -106,5 +106,16 @@ addFooter();
 function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
-
-
+var form=document.getElementById('Storesform');
+form.addEventListener('submit',function(event){
+    event.preventDefault();
+var location=event.target.locationfiled.value;
+console.log(location);
+var mincustomer=event.target.mincustomerfiled.value;
+var maxcustomer=event.target.maxcustomerfiled.value;
+var avg=event.target.avgpercustomer.value;
+var addedLocations = new Stores(location,mincustomer,maxcustomer,avg);
+addedLocations.getCustomerperhour();
+addedLocations.getCookiesperhour();
+addedLocations.render();
+});
