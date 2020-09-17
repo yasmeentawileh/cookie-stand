@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&display=swap');
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    background-color: rgb(151, 162, 184);
+}
+nav{
+    background-color:rgb(89, 88, 105);
+    padding:5px; 
+  }
+  nav ul li{
+    display:inline;
+  text-align: center;
+   color: white;
+   padding: 30px;
+  }
+  h1{
+      font-weight: bold;
+      color: cornsilk;
+      text-align: center;
+      margin-top: 20px;
+      font-family:IM Fell English, serif ;
+      font-size: 60px;
+  }
+  h2{
+    font-weight: bold;
+    color: cornsilk;
+    text-align: center;
+    margin-top: 20px;
+    background-color: darkcyan;
+    display: inline-block;
+    margin-left:50%;
+    padding: 15px;
+    border-radius: 2.5px;
+  }
+  p{
+      margin-left:20%;
+      margin-right: 20%;
+      margin-top:1%;
+background-color: rgb(89, 88, 105);
+padding:15px;
+line-height: 1cm;
+color:white;
+font-size: 20px;
+  }
+  ul{
+    margin-left:20%;
+    margin-right: 20%;
+    margin-top:1%;
+background-color: rgb(89, 88, 105);
+padding:15px;
+line-height: 1cm;
+color:white'
+  }
+ul li{
+    color:white;
+    font-size: 20px;
+    display:inline-block;
+    
+}
+#family{
+    margin-left:40%;
+    padding: 7px;
+}
+.products{
+    display:inline-block;
+    margin-left: 30%;
+    margin-top:2%;
+}
+

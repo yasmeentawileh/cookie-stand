@@ -1,5 +1,9 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
 body{
-    background-color: burlywood;
+    background-color: rgb(151, 162, 184);
 }
 table{
     border: 1px black solid;
@@ -9,18 +13,4 @@ table td{
     border: 1px black solid;
     padding: 20px;
 }
-header{
-    text-align: center;
-    color: brown;
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-p{
-    color:brown;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-p ul li{
-    color: brown;
-    font-size:25px ;
-}
+
